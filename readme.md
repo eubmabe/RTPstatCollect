@@ -29,4 +29,3 @@ CollectorScript.bat
 4 Skapa en genväg genom att högerklicka på CollectorScript.bat och välj Send to -> Desktop
 5. Genom att klicka på denna genväg så körs scriptet som ska samla in information i rätt bibliotek
 
-I# collectRTPstat
