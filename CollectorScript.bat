@@ -49,7 +49,7 @@ REM Start one command window for each interface
 echo Trace started using %TSHARKcommand% on all available interfaces!!!
 FOR /f "tokens=1 delims=." %%G IN ('"%TSHARKcommand%" -D') DO (
  echo Starting Tshark on interface %%G for %trace_time% seconds
- start TSHARK.bat .\%time_stamp%\RTPstat_%%G.txt %trace_time% %%G
+ start TSHARK.bat "%TSHARKcommand%" .\%time_stamp%\RTPstat_%%G.txt %trace_time% %%G
 )
 
 echo Collecting information on available interfaces
