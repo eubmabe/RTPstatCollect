@@ -28,5 +28,3 @@ CollectorScript.bat
 3. Antingen lör man programmet genom att köra CollectorScript.bat eller genom att göra en genväg enligt nedan
 4 Skapa en genväg genom att högerklicka på CollectorScript.bat och välj Send to -> Desktop
 5. Genom att klicka på denna genväg så körs scriptet som ska samla in information i rätt bibliotek
-
-I
