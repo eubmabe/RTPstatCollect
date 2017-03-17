@@ -3,7 +3,7 @@
 REM Set global variables
 set TPscriptConf=TPscriptConf.txt
 set trace_time=60
-set version=0.11
+set version=0.12
 
 echo Running following script file: %0
 
